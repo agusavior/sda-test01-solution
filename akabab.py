@@ -29,11 +29,11 @@ class AkababAPI:
             for d in ds
         ]
 
-    # Mocked endpoint TODO: IMPLEMENTE THIS
+    # Warning! Mocked endpoint!
     @classmethod
     def get_all_occupations(cls):
         # Print a warning
-        print('Warning, you are using a mocked endpoint. Implement an endpoint or make in order to get all occupations.')
+        print('Warning. You are using a mocked endpoint. Implement an endpoint or make in order to get all occupations.')
         
         return [
             'musician',

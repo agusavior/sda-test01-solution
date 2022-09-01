@@ -57,7 +57,7 @@ class AkababAPI:
     def from_data_to_superheroe(cls, d: Dict[Any, Any]) -> Superheroe:
         # Decontruct
         id = d['id']
-        full_name = d['biography']['fullName']
+        full_name = d['biography']['fullName'] or d['name']
         alter_egos = d['biography']['alterEgos']
         aliases = d['biography']['aliases']
         image_url = d['images']['sm']
